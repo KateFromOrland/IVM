@@ -1,6 +1,6 @@
 #include <iostream>
-#include "matrix.cpp"
-#include "vector.cpp"
+#include "matrix.h"
+#include "vector.h"
 
 int main() {
     Matrix A(3), B(3);
