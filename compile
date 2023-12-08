@@ -1,0 +1,7 @@
+#!/bin/bash
+g++ -c my_math/vector.cpp
+g++ -c my_math/matrix.cpp
+ar cr libproject.a vector.o matrix.o
+rm vector.o matrix.o
+g++ my_math/main.cpp -o project -L. -lproject
+./project
