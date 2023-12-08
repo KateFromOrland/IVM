@@ -1,6 +1,6 @@
 #ifndef IVM_MATRIX_H
 #define IVM_MATRIX_H
-#include "vector.cpp"
+#include "vector.h"
 
 class Matrix {
     int test;
